@@ -6,3 +6,18 @@
 
 // For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
 
+let counter = 1;
+
+while (counter < 101) {
+  let output = "";
+
+  if (counter % 3 === 0) {
+    output += "Fizz";
+  }
+  if (counter % 5 === 0) {
+    output += "Buzz";
+  }
+
+  console.log(output);
+  counter += 1;
+}
