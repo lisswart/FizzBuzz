@@ -13,14 +13,15 @@ while (counter < 101) {
 
   if (counter % 3 === 0) {
     output += "Fizz";
+    console.log(output);  
   }
   if (counter % 5 === 0) {
     output += "Buzz";
-  }
-  if(counter % 3 != 0 && counter % 5 != 0) {
+    console.log(output);  
+  } else if(counter % 3 != 0 && counter % 5 != 0) {
     console.log(counter);
   }
-  console.log(output);
   counter += 1;
-  
 }
+
+console.log("Done!");
