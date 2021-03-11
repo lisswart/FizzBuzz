@@ -17,7 +17,10 @@ while (counter < 101) {
   if (counter % 5 === 0) {
     output += "Buzz";
   }
-
+  if(counter % 3 != 0 && counter % 5 != 0) {
+    console.log(counter);
+  }
   console.log(output);
   counter += 1;
+  
 }
